@@ -1,0 +1,27 @@
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            width: 60vw;
+            padding: 50px;
+        }
+
+
+        #errores,
+        #btn {
+            margin-top: 50px;
+        }
+
+        #errores{
+            color: red;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select{
+            width: 100%;
+        }
